@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang=en-us>
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intital-scale=1.0" />
+    <title>Roda's Portfolio</title>
+    <link rel="shortcut icon" type="image/ico" href="./assets/images/Letter-D-Favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="index.html"><span>Danny Urkov<span></a>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero" id="hero">
+        <img src="./assets/images/profile-pic-circle.png" class="profile-pic-circle" alt="Danny Urkov smiling at the camera with mountain landscape in the background."/>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            My name is Roda Hassan and I am a web developer student living in Minnesota. <br />I enjoy watching shows on hulu or Netflix, spending time with my children, exploring the Twin Cities!
+        </p>
+    </section>
+
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        
+        <h2 class="title-portfolio">Portfolio</h2>
+       
+        <div class="top-project-container">
+            <article class="top-card">
+                <a href="https://danster4.github.io/run-buddy/"><img src="./assets/images/run-buddy-screenshot.PNG" alt ="Landing page website for Run Buddy, a running and fitness trainer website to help people run and exercise."class="project-1"></a>
+                <div class="top-card-text">Run Buddy</div>
+            </article>
+        </div>
+
+        <div class="bottom-project-container">
+            <article class="lower-card">
+                <a href="https://morning-coast-83495.herokuapp.com/"><img src="./assets/images/interview-key-screenshot.PNG" alt ="Project 3 for UCF Coding Bootcamp for Fall 2021 for Interview Key Application." class="project-2"></a>
+                <div class="lower-card-text">Interview Key</div>
+            </article>
+            <article class="lower-card">
+                <a href="https://pfrueh1.github.io/SuperFan/"><img src="./assets/images/superfan-screenshot.PNG" alt ="Project 1 for UCF Coding Bootcamp for Fall 2021. Super Fan website connects arena tickets, merchandise from Amazon, and top hits from Wikipedia from searching your favorite artist or band." class="project-2"></a>
+                <div class="lower-card-text">SuperFan</div>
+            </article>
+            <article class="lower-card">
+                <a href="https://murmuring-mesa-60919.herokuapp.com/"><img src="./assets/images/eleven-eleven-screenshot.PNG" alt ="Project 3 for UCF Coding Bootcamp for Fall 2021 for Eleven Eleven Application." class="project-2"></a>
+                <div class="lower-card-text">Eleven:Eleven</div>
+            </article>
+        </div>
+        
+    </section>
+
+<div class="resume-contact-background">
+    
+    <!-- resume section -->
+    <section class="resume" id="resume">
+            
+        <h2 class="title-resume">Resume</h2>
+        
+        <article class="resume-container">
+            <div class="resume-content">
+                <h2>Education</h2>
+                <br />
+                <p> 
+                    Florida School of Professional Psychology<br/>at National Louis University – Tampa, FL<br/><span>Master of Arts in Clinical Psychology</span><br/>GPA: 3.92<br />Sept 2020
+                </p> 
+                <br/> <br/>
+                <p>
+                    University of Miami - Coral Gables, FL<br /><span>Bachelor of Science in Psychology & Motion Pictures</span><br/>Minor: Chemistry<br/>GPA: 3.69<br/>May 2018
+                </p>
+            </div>
+            
+            <br />
+            
+            <div class="resume-content">
+                <h2>Work Experience</h2>
+                <br />
+                <p> 
+                    Substitute Teacher<br/>Kelly Services in Hillsborough County Public Schools<br/>Tampa, FL <br/>March 2021 – June 2021
+                </p>
+                <br/>
+                <p> 
+                    Practicum Student Therapist<br/>University of South Florida (USF) - Wellness Center<br/>St. Petersburg, FL <br/>July 2020 – Dec 2020
+                </p>
+            </div>
+            
+            <br />
+            
+            <div class="resume-content">
+                <h2>Volunteering</h2>
+                <br />
+                <p> 
+                    Peer Educator<br/>Counseling Outreach Peer Education<br/>University of Miami<br/>Coral Gables, FL<br/>Nov 2015 - May 2018
+                </p>
+                <br/>
+                <p> 
+                    Volunteer Instructor<br/>ARC of South Florida<br/>Kendall, FL <br/>May 2017 - Sept 2017
+                </p>
+            </div>
+        </article>
+    </section>
+
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        
+        <h2 class="title-contact">Contact</h2>
+        
+        <article class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Info:</h3>
+                <br />
+                <p>
+                    Phone: (312) 391-7134<br/>
+                    Email: <a href="mailto:danielmedfordurkov@gmail.com">danielmedfordurkov@gmail.com</a>
+                </p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Contact Me:</h3>
+                <br />
+                <form>
+                    <label for="contact-name">Name:</label>
+                    <input type="text" id="contact-name" placeholder="Name" />
+                    <br />
+                    <label for="contact-phone">Phone Number:</label>
+                    <input type="tel" id="contact-phone" placeholder="Phone Number" />
+                    <br />
+                    <label for="contact-email">Email Address:</label>
+                    <input type="email" id="contact-email" placeholder="Email Address" />
+                    <br />
+                    <label for="contact-message">Message:</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+                    <br />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+
+    </section>
+</div>
+    
+
+    <!-- footer section -->
+    <footer>
+        <div>
+            <img src="./assets/images/letter-d.png" alt="logo for Daniel Urkov" class="logo"/>
+        </div>
+        <div>
+            <h4>Danny Urkov</h4>
+            <p>Web Developer
+                <br />
+                &copy; 2021
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
