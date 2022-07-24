@@ -95,7 +95,7 @@ header .nav ul li a span:hover {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-image: url(../images/mountains-landscape.jpg);
+    background-image: url(../images/myAvatar.jpg;)
 }
 
 .profile-pic-circle {
@@ -171,7 +171,7 @@ header .nav ul li a span:hover {
 .top-project-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 10;
     justify-content: center;
     width: 100%;
 }
@@ -183,9 +183,9 @@ header .nav ul li a span:hover {
     align-items: stretch;
     justify-content: center;
     border-style: solid;
-    border-width: 3px;
+    border-width: 20px;
     border-color: black;
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -229,7 +229,7 @@ header .nav ul li a span:hover {
     align-items: stretch;
     justify-content: center;
     border-style: solid;
-    border-width: 3px;
+    border-width: 10px;
     border-color: black;
     width: 60%;
     margin: 20px;

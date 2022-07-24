@@ -1,6 +1,12 @@
 # Portfolio-Project-
 Challenge 2: Advanced CSS Challenge: Professional Portfolio
 
+Links:
+Link to Deployed Application:
+https://github.com/rodaH123/Portfolio-Project-
+
+file:///C:/Users/rdhss/challenge2/index.html#portfolio
+
 
 User Story:
 AS AN employer I WANT to view a potential employee's deployed portfolio of work samples SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
